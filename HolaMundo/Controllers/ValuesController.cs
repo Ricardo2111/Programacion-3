@@ -14,7 +14,7 @@ namespace HolaMundo.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Ricardo", "Gabriel" };
+            return new string[] { " Hola Mundo" };
         }
 
        
